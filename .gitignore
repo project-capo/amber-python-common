@@ -2,10 +2,9 @@
 *.iml
 *.ipr
 *.iws
-*.pyc
+
 *.png
 *.svg
-*.py.prof
 
 MANIFEST
 
@@ -14,3 +13,6 @@ dist/
 *.egg-info/
 
 __envi/
+
+*.pyc
+*.py.prof

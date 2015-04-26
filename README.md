@@ -1,6 +1,9 @@
 amber-python-common
 ===================
 
+[![Code Health](https://landscape.io/github/project-capo/amber-python-common/master/landscape.svg?style=flat)](https://landscape.io/github/project-capo/amber-python-common/master)
+[![Code Climate](https://codeclimate.com/github/project-capo/amber-python-common/badges/gpa.svg)](https://codeclimate.com/github/project-capo/amber-python-common)
+
 Requirements
 ------------
 

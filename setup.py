@@ -26,7 +26,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=required,
-    version='0.2',
+    version='0.3',
     description='Amber clients in python',
     author=u'Paweł Suder',
     author_email='pawel@suder.info',
