@@ -23,9 +23,9 @@ def __shutdown_func(*args, **kwargs):
 
     for func in __funcs:
         try:
-            __logger.warn('run func %s' % str(func.__name__))
+            __logger.warn('run func %s', str(func.__name__))
             func()
-        except:
+        except BaseException:
             pass
 
 
