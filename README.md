@@ -21,13 +21,7 @@ How to use (PyPi)
 
 Simply. Add to `requirements.txt`
 
-    amber-python-common
-
-You can install it by python-installer
-
-    pip install amber-python-common
-
-Package available at https://pypi.python.org/pypi/amber-python-common
+    -e git+git://github.com/project-capo/amber-python-common#egg=amber-python-common
 
 How to contribute
 -----------------
