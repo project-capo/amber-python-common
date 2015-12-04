@@ -8,9 +8,6 @@ except ImportError:
     sys.stderr.write('using distutils\n')
     from distutils.core import setup
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
-
 setup(
     name='amber-python-common',
     packages=['ambercommon', 'ambercommon.common'],
@@ -25,7 +22,6 @@ setup(
         ]),
     ],
     include_package_data=True,
-    install_requires=required,
     version='0.4',
     description='Amber clients in python',
     author=u'Paweł Suder',
